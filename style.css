@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1234;
+    
+    
+
+}
+#main h1{
+    color: white;
+    font-size: 70px;
+
+}
+#main p{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    line-height: 3rem;
+    text-align: center;
+
+
+}
+#main button{
+
+    padding: 10px 18px;
+    border: none;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    width: 10%;
+    cursor:pointer;
+}
